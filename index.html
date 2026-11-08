@@ -18,15 +18,24 @@
     <p class="kicker">Smart Hack AI</p>
     <h1>Free AI tools<br>I <span>actually</span> use</h1>
     <p class="sub">Tested on my own channel. No fluff, no paid hype.</p>
-    <a class="btn" href="#about">See the list</a>
+    <a class="btn" href="#latest">See the list</a>
   </section>
-  <!--LATEST-->
+  <section id="latest" class="tools">
+    <h2>Latest AI tools</h2>
+    <div class="grid">
+      <article class="card"><h3>Claude</h3><p>Plans, scripts and rewrites my video ideas in seconds.</p><a href="https://claude.ai">Try it →</a></article>
+      <article class="card"><h3>NotebookLM</h3><p>Turns research docs into summaries and audio overviews.</p><a href="https://notebooklm.google.com">Try it →</a></article>
+      <article class="card"><h3>Perplexity</h3><p>Answers questions with sources, great for fact-checking.</p><a href="https://www.perplexity.ai">Try it →</a></article>
+      <article class="card"><h3>CapCut</h3><p>Fast Shorts editing with auto captions built in.</p><a href="https://www.capcut.com">Try it →</a></article>
+      <article class="card"><h3>ElevenLabs</h3><p>Natural-sounding AI voiceovers from a script.</p><a href="https://elevenlabs.io">Try it →</a></article>
+    </div>
+  </section>
   <section id="about" class="about">
     <h2>About</h2>
     <p>I make short, practical videos about AI tools for creators. Everything here is something I use every week to plan, script and edit videos.</p>
   </section>
 </main>
 <footer class="foot">© <span id="yr">2026</span> Smart Hack AI · Built with Claude Code</footer>
-<script>document.querySelector('.btn').addEventListener('click',e=>{e.preventDefault();document.querySelector('#about').scrollIntoView({behavior:'smooth'})});</script>
+<script>document.querySelector('.btn').addEventListener('click',e=>{e.preventDefault();document.querySelector('#latest').scrollIntoView({behavior:'smooth'})});</script>
 </body>
 </html>
